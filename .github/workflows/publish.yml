@@ -13,6 +13,5 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm publish
-      - run: "npm unpublish aoijs.lavalink@1.0.0"
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM}}
