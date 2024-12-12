@@ -7,7 +7,7 @@ A package for integrating Lavalink with Aoi.js to enable music streaming in Disc
 ## Installation
 
 ```bash
-npm i aoijs.lavalink
+npm install aoijs.lavalink
 ```
 ---
 
